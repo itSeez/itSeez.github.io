@@ -10,36 +10,63 @@
 </head>
 
 <body>
-    <!-- Header with headshot and my 'title' -->
+    <!-- Header with headshot and my 'title' TODO: put this color in the CSS -->
     <section class="hero is-primary">
         <div class="hero-body" style="background-color:#b9eebc;">
             <div class="container">
                 <div class="level">
                     <div class="level-item has-text-centered">
                         <figure class="image is-256x256">
-                            <img class="is-rounded" src="img/me-big.jpg">
+                            <img class="is-rounded" src="img/headshot.jpg">
                         </figure>
                     </div>
                 </div>
-                <div class="columns has-text-centered">
-                    <div class="column">
-                        <h1 class="title is-1" style="color:black">Paul McInnis</h1>
-                        <h2 class="subtitle" style="color:black">Backend, ML & Python, Waterloo, ON</h2>
+                <!-- FIXME: need to get color in CSS here as well -->
+                <div class="level-item has-text-centered">
+                    <div class="column" style="color:black">
+                        <h1 class="title is-1" Paul McInnis</h1>
+                            <h2 class="subtitle" style="color:black">Backend, ML & Python, Waterloo, ON</h2>
                     </div>
                 </div>
+                <div class="column" style="color:black">
+                    <nav class="level">
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <a href="mailto:paulmcinnis99@gmail.com" target="_blank" class="icon has-text-light" style="color:black">
+                                    <i class="fas fa fa-envelope" style="color:black"></i></i><strong style="color:black">Email</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class="level-item has-text-centered">
+                            <div>
+                                <a href="https://github.com/PaulMcInnis" class="icon has-text-light" style="color:black">
+                                    <i class="fas fa fa-github" style="color:black"></i></i> <strong style="color:black">Github</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <a href="https://www.linkedin.com/in/paul-mcinnis-7a63173b" class="icon has-text-light" style="color:black">
+                                    <i class="fab fa-1x fa-linkedin-in" style="color:black"></i></i> <strong style="color:black">Linkedin</strong>
+                                </a>
+                            </div>
+                        </div> -->
+                    </nav>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
     <!-- About Me  -->
     <section class="section">
-        <!-- <div class="container"> -->
-        <h1 class="title">About Me</h1>
-        <hr />
-        <p>
-            I am a self-starter who enjoys building things from the ground up. <br /><br /> In my spare time I'm maintaining my open-source job searching tool <a href="https://github.com/PaulMcInnis/JobFunnel" target="_blank">JobFunnel</a>, playing with my band the <a href="https://www.facebook.com/pages/category/Musician-Band/The-Recollectives-101336001232750/" target="_blank">Recollectives</a>, or breaking out my soldering iron and trying out a new Raspberry Pi project. <br /><br /> I am always on the lookout for new and exciting opportunities - if you think I would be a good fit, feel free to <a href="mailto:paulmcinnis99@gmail.com" target="_blank">drop me a line</a>.
-        </p>
-        <!-- </div> -->
+        <div class="container">
+            <h1 class="title">About Me</h1>
+            <hr />
+            <p>
+                I am a self-starter who enjoys building things from the ground up. <br /><br /> In my spare time I'm maintaining my open-source job searching tool <a href="https://github.com/PaulMcInnis/JobFunnel" target="_blank">JobFunnel</a>, playing with my band the <a href="https://www.facebook.com/pages/category/Musician-Band/The-Recollectives-101336001232750/" target="_blank">Recollectives</a>, or breaking out my soldering iron and trying out a new Raspberry Pi project. <br /><br /> I am always on the lookout for new and exciting opportunities - if you think I would be a good fit, feel free to <a href="mailto:paulmcinnis99@gmail.com" target="_blank">drop me a line</a>.
+            </p>
+        </div>
     </section>
 
     <!-- Job Experience -->
@@ -57,14 +84,14 @@
                         </div>
                         <div class="media-content">
                             <p class="title is-4">DarwinAI</p>
-                            <p class="subtitle is-6">Senior platform developer -
-                                <time datetime="2018">October 2018</time> -
+                            <p class="subtitle is-6">
+                                <time datetime="2018">October 2018</time> &#8702;
                                 <time datetime="2020">Present</time>
                             </p>
                         </div>
                     </div>
                     <div class="content">
-                        <p>Senior Platform Developer</p>
+                        <p><b>Senior Platform Developer</b></p>
                         <ul>
                             <li>Development in support of <a href="https://arxiv.org/pdf/1606.04393.pdf" target="_blank">Generative Synthesis</a>, a cutting-edge graph optimization platform</li>
                             <li>Assisted in delivering highly-performant networks to enterprise customers across many verticals</li>
@@ -94,13 +121,13 @@
                         <div class="media-content">
                             <p class="title is-4">Rave Inc</p>
                             <p class="subtitle is-6">
-                                <time datetime="2017">September 2017</time> -
+                                <time datetime="2017">September 2017</time> &#8702;
                                 <time datetime="2018">November 2018</time>
                             </p>
                         </div>
                     </div>
                     <div class="content">
-                        <p>Software Developer</p>
+                        <p><b>Software Developer</b></p>
                         <ul>
                             <li>Development of <a href="https://rave.dj/" target="_blank">RaveDJ</a>, an A.I. DJ web-app</li>
                             <li>Novel research and development in support of DJ mix generation</li>
@@ -132,13 +159,13 @@
                         <div class="media-content">
                             <p class="title is-4">UWAFT</p>
                             <p class="subtitle is-6">
-                                <time datetime="2015">August 2015</time> -
+                                <time datetime="2015">August 2015</time> &#8702;
                                 <time datetime="2017">August 2017</time>
                             </p>
                         </div>
                     </div>
                     <div class="content">
-                        <p>Engineering Manager</p>
+                        <p><b>Engineering Manager</b></p>
                         <ul>
                             <li>Responsible for Innovation and Electrical sub-teams</li>
                             <li>Advanced Vehicle Technology Competition (<a href="https://avtcseries.org/" target="_blank">AVTC</a>) for the conversion of a Camaro into a hybrid sports car</li>
@@ -276,25 +303,25 @@
                 <div class="level-item has-text-centered">
                     <div>
                         <a href="https://github.com/PaulMcInnis" class="icon is-large">
-                            <i class="fab fa-2x fa-github"></i>
+                            <i class="fab fa-2x fa-github" style="color:black"></i>
                         </a>
-                        <p class="heading"><a href="https://github.com/PaulMcInnis">Github</a></p>
+                        <p class="heading"><a href="https://github.com/PaulMcInnis" style="color:black">Github</a></p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
-                        <a href="mailto:paulmcinnis@gmail.com" class="icon is-large">
+                        <a href="mailto:paulmcinnis@gmail.com" target="_blank" class="icon is-large" style="color:black">
                             <i class="fas fa-2x fa-envelope"></i>
                         </a>
-                        <p class="heading"><a href="mailto:paulmcinnis@gmail.com">gmail</a></p>
+                        <p class="heading"><a href="mailto:paulmcinnis@gmail.com" target="_blank" style="color:black">gmail</a></p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
-                        <a href="https://www.linkedin.com/in/paul-mcinnis-7a63173b" class="icon is-large">
+                        <a href="https://www.linkedin.com/in/paul-mcinnis-7a63173b" class="icon is-large" style="color:black">
                             <i class="fab fa-2x fa-linkedin-in"></i>
                         </a>
-                        <p class="heading"><a href="https://www.linkedin.com/in/paul-mcinnis-7a63173b">linkedin</a></p>
+                        <p class="heading"><a href="https://www.linkedin.com/in/paul-mcinnis-7a63173b" style="color:black">linkedin</a></p>
                     </div>
                 </div>
             </nav>
